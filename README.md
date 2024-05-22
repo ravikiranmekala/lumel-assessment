@@ -70,7 +70,7 @@ The Data Population script (`data_population.py`) performs the following tasks:
 - Inserts the processed data into the respective tables in the correct order to respect foreign key constraints.
 
 ## Postman Collection link
-- [Click Here](https://api.postman.com/collections/18360858-eb43f727-1d24-4873-a570-a4c934637da6?access_key=PMAT-01HYFFBJD1MMGNHG21BNXQ928P)
+- [Click Here](https://shorturl.at/2AeU9)
 
 
 
