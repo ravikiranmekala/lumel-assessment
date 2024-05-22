@@ -66,7 +66,7 @@
 
 The ETL script (`data_population.py`) performs the following tasks:
 - Clears existing data from the `orders`, `products`, `customers`, and `order_details` tables.
-- Reads and processes the CSV file in parallel using `concurrent.futures`.
+- Reads and processes the CSV file
 - Inserts the processed data into the respective tables in the correct order to respect foreign key constraints.
 
 
