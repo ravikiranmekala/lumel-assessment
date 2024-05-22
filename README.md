@@ -13,7 +13,6 @@
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/ravikiranmekala/lumel-assessment.git
-    cd sales-data-etl
     ```
 
 2. **Create a virtual environment and activate it:**
@@ -69,3 +68,5 @@ The ETL script (`data_population.py`) performs the following tasks:
 - Clears existing data from the `orders`, `products`, `customers`, and `order_details` tables.
 - Reads and processes the CSV file in parallel using `concurrent.futures`.
 - Inserts the processed data into the respective tables in the correct order to respect foreign key constraints.
+
+
